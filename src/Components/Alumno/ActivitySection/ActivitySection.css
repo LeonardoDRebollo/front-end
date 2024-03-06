@@ -1,0 +1,15 @@
+.fondoS2 {
+    background-color: rgb(235, 227, 227);
+}
+
+.activity-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .activity-section {
+        flex-direction: column;
+    }
+}

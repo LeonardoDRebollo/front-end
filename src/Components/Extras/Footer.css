@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 1%;
+    background-color: #570000; /* Color vino */
+    color: #ffffff; /* Letras blancas */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    min-width: max-content;
+  }
+  
+  .footer-content {
+    max-width: max-content;
+  }
+  

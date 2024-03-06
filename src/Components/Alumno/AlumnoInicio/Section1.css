@@ -1,0 +1,99 @@
+.main-content {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+    min-height: max-content;
+    min-width: auto;
+}
+
+.message {
+    margin-bottom: 30px;
+    color: #570000;
+}
+
+.student-data h2 {
+    color: #570000;
+}
+
+.content-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.student-data {
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    width: 1;
+    margin: 20px;
+}
+.student-column {
+    flex: 1; /* Distribuye el espacio igualmente entre las columnas */
+    padding: 10px; /* Añade algo de espacio dentro de las columnas */
+    /* Añade bordes o separadores si es necesario */
+  }
+
+.memory-card {
+    /* flex-basis: 48%; */
+    /* Ajusta para controlar el espacio entre las dos columnas */
+    /* padding-inline: 20px; */
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Image{
+    margin: 40px;
+    width: 90px;
+    height: 100px;
+}
+.contenido{
+    padding-right: 20px;
+}
+
+.memory-card:hover {
+    background-color: #e9e9e9;
+    /* Efecto hover para la tarjeta */
+}
+
+@media (max-width: 768px) {
+    .content-sections {
+        flex-direction: column;
+    }
+
+    .student-column,
+    .student-data,
+    .memory-card {
+        flex-basis: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.memory-card {
+    border: 1px solid #ccc;
+    /* padding: 16px; */
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    max-width: 480px;
+    /* O ajusta al ancho máximo deseado */
+    cursor: pointer;
+    /* Cambia el cursor para indicar interactividad */
+}
+
+.memory-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.memory-header h2 {
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    /* Ajusta el tamaño de la fuente como sea necesario */
+}

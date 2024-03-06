@@ -1,0 +1,22 @@
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.main-container h1{
+    font-style: italic;
+    font-size: 40PX;
+    font-weight: 800;
+}
+
+.container{
+    background-color: #DFDFDF;
+    width: 100%;
+    min-height: max-content;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
